@@ -30,7 +30,9 @@ Modern web browser with microphone access
 🚀 Running the Application
 Development Mode
 Start both backend and frontend in separate terminals:
-bash# Terminal 1 - Backend
+bash# 
+
+# Terminal 1 - Backend
 cd backend
 npm run dev
 
@@ -43,15 +45,6 @@ The application will be available at:
 Frontend: http://localhost:3000
 Backend: http://localhost:3001
 WebSocket: ws://localhost:3001/voice-chat
-
-Production Mode
-bash# Build frontend
-cd frontend
-npm run build
-
-# Start backend (serves frontend)
-cd ../backend
-npm start
 
 
 🎯 Usage
@@ -72,6 +65,7 @@ ESC: Interrupt AI response
 Enter: Send text message (if implemented)
 
 Voice Commands
+
 Ask Rev (the AI assistant) about:
 
 Revolt Motors products and specifications
@@ -84,6 +78,7 @@ Company information
 
 
 Model Selection
+
 For development and testing, use:
 
 gemini-2.0-flash-live-001 (higher rate limits)
@@ -92,6 +87,7 @@ gemini-live-2.5-flash-preview (alternative)
 For production, use:
 
 gemini-2.5-flash-preview-native-audio-dialog (native audio support)
+
 
 Acknowledgments
 
