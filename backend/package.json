@@ -1,0 +1,36 @@
+{
+  "name": "revolt-voice-chat-backend",
+  "version": "1.0.0",
+  "description": "Backend for Revolt Motors voice chat using Gemini Live API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.2.0",
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.17.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "voice",
+    "chat",
+    "gemini",
+    "ai",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonjs"
+}
