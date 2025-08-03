@@ -11,18 +11,20 @@ Multi-language Support: Handles various languages
 Clean UI: Modern, responsive interface
 Keyboard Shortcuts: Space to record, ESC to interrupt
 Real-time Status: Visual indicators for connection and activity
+
+
 🏗️ Architecture
 Backend: Node.js/Express with WebSocket support
 Frontend: React with real-time audio processing
 API: Google Gemini Live API integration
 Communication: WebSocket for real-time bidirectional communication
+
+
 📋 Prerequisites
 Node.js 18+
 npm or yarn
 Google AI Studio API key
 Modern web browser with microphone access
-
-
 
 
 🚀 Running the Application
@@ -31,6 +33,7 @@ Start both backend and frontend in separate terminals:
 bash# Terminal 1 - Backend
 cd backend
 npm run dev
+
 
 # Terminal 2 - Frontend
 cd frontend
@@ -51,10 +54,8 @@ cd ../backend
 npm start
 
 
-
-
-
 🎯 Usage
+
 Basic Operation
 
 Connect: The app automatically connects to the voice chat service
@@ -62,6 +63,7 @@ Speak: Hold the microphone button or press and hold SPACE
 Release: Let go to send your audio to the AI
 Listen: The AI responds with synthesized speech
 Interrupt: Press ESC or click interrupt while AI is speaking
+
 
 Keyboard Shortcuts
 
